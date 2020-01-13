@@ -81,6 +81,5 @@ def convert():
 if __name__ == "__main__":
     question()
     converted = convert()
-    print(converted)
     outputFile = open(output, "w")
     outputFile.write(converted)
